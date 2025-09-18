@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jude Wade - Sound Designer Portfolio
+
+A modern, interactive portfolio website showcasing the work of Jude Wade, a professional sound designer and audio engineer.
+
+## Features
+
+- **Interactive Launch Animation** - Letter-by-letter reveal of the JUDE logo
+- **Dynamic Audio Waves** - Real-time sine wave visualization with mouse interaction
+- **Responsive Design** - Optimized for all screen sizes
+- **Resume & Certifications** - Professional credentials display
+- **Smooth Animations** - Modern UI transitions and effects
+
+## Tech Stack
+
+- **Next.js 15** - React framework with TypeScript
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Custom CSS** - Semantic class structure with CSS variables
+- **SVG Animations** - Interactive graphics and visualizations
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/jdoseph/judewade-portfolio.git
+cd judewade-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/
+│   ├── globals.css      # Global styles and animations
+│   ├── layout.tsx       # Root layout component
+│   └── page.tsx         # Main homepage component
+├── public/
+│   ├── resume files     # PDF and image assets
+│   └── certifications   # Professional credentials
+└── README.md
+```
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For inquiries about sound design services, please visit the portfolio website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built with ❤️ using Next.js and modern web technologies.
