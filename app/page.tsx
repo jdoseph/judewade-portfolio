@@ -324,7 +324,7 @@ export default function Home() {
       <section id="contact" className="contact-section">
         <div className="contact-container">
           <h2 className="contact-title">
-            Let's Create Together
+            Let&apos;s Create Together
           </h2>
 
           <div className="contact-buttons">
