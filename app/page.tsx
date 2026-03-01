@@ -206,9 +206,9 @@ export default function Home() {
             <video
               className="portfolio-video"
               controls
-              poster="/path-to-your-video-thumbnail.jpg"
+              poster="/image.png"
             >
-              <source src="/path-to-your-video.mp4" type="video/mp4" />
+              <source src="/jude_wade_reel.mp4" type="video/mp4" />
               <source src="/path-to-your-video.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -229,19 +229,19 @@ export default function Home() {
               <h3 className="resume-subtitle">Professional Resume</h3>
               <div className="resume-viewer">
                 <img
-                  src="/Jude-Wade-4-1.png"
+                  src="/Jude_Wade_Resume_2026.png"
                   alt="Jude Wade Resume"
                   className="resume-image"
                 />
               </div>
               <div className="resume-actions">
-                <a href="/Jude-Wade-4.pdf" className="resume-button" download>
+                <a href="/Jude-Wade-Resume-2026.pdf" className="resume-button" download>
                   <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                   </svg>
                   Download PDF
                 </a>
-                <a href="/Jude-Wade-4.pdf" className="resume-button resume-button-secondary" target="_blank">
+                <a href="/Jude-Wade-Resume-2026.pdf" className="resume-button resume-button-secondary" target="_blank">
                   <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                   </svg>
@@ -279,12 +279,11 @@ export default function Home() {
       <section id="about" className="about-section">
         <div className="about-container">
           <h2 className="about-title">
-            About Jude
+            About Me
           </h2>
           <p className="about-description">
-            With over a decade of experience in audio production, I specialize in creating compelling soundscapes
-            that enhance storytelling and user experience. From intimate indie films to expansive game worlds,
-            I bring stories to life through carefully crafted audio design.
+            I am a SCAD Alumni that is passionate about creating compelling soundscapes,
+            that enhance storytelling and user experience. I try to bring stories to life through carefully crafted audio design.
           </p>
 
           <div className="skills-grid">
@@ -327,18 +326,15 @@ export default function Home() {
           <h2 className="contact-title">
             Let's Create Together
           </h2>
-          <p className="contact-description">
-            Ready to bring your project to life with exceptional audio? Let's discuss how we can collaborate.
-          </p>
 
           <div className="contact-buttons">
-            <a href="mailto:jude@example.com" className="contact-button-primary">
+            <a href="mailto:judewadesounddesign@gmail.com" className="contact-button-primary">
               <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
               </svg>
               Email Me
             </a>
-            <a href="https://linkedin.com/in/judewade" className="contact-button-secondary">
+            <a href="https://www.linkedin.com/in/jude-wade-21ab98234/" className="contact-button-secondary">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
@@ -350,7 +346,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2024 Jude Wade. All rights reserved.</p>
+        <p>&copy; 2026 Jude Wade. All rights reserved.</p>
       </footer>
     </div>
   );
