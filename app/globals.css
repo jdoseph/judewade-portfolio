@@ -787,6 +787,12 @@ html {
   justify-content: center;
 }
 
+.link-button{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
 .contact-button-primary {
   background-color: var(--accent);
   color: white;
