@@ -217,7 +217,7 @@ export default function Home() {
           </div>
         </div>  
         <div>
-            <a className="link-button" href="https://youtu.be/c99RnINHh-Y" target="_blank">
+              <a className="link-button" href="https://youtu.be/c99RnINHh-Y" target="_blank">
               <button className="hero-button-primary">
                 Watch on YouTube
               </button>
