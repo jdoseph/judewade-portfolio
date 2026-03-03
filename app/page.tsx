@@ -206,10 +206,12 @@ export default function Home() {
             <video
               className="portfolio-video"
               controls
+              playsInline
+              preload="metadata"
               poster="/image.png"
             >
               <source src="/jude_wade_reel.mp4" type="video/mp4" />
-              <source src="/path-to-your-video.webm" type="video/webm" />
+              <source src="/jude_wade_reel.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>
