@@ -210,11 +210,18 @@ export default function Home() {
               preload="metadata"
               poster="/image.png"
             >
-              <source src="/jude_wade_reel.mp4" type="video/mp4" />
-              <source src="/jude_wade_reel.webm" type="video/webm" />
+              <source src={process.env.NEXT_PUBLIC_VIDEO_MP4 || '/jude_wade_reel.mp4'} type="video/mp4" />
+              <source src={process.env.NEXT_PUBLIC_VIDEO_WEBM || '/jude_wade_reel.webm'} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>
+        </div>  
+        <div>
+            <a href="https://youtu.be/c99RnINHh-Y" target="_blank">
+              <button className="hero-button-primary">
+                Watch on YouTube
+              </button>
+            </a>
         </div>
       </section>
 
