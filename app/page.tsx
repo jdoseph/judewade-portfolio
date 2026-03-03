@@ -212,7 +212,7 @@ export default function Home() {
             >
               <source src={process.env.NEXT_PUBLIC_VIDEO_MP4 || '/jude_wade_reel.mp4'} type="video/mp4" />
               <source src={process.env.NEXT_PUBLIC_VIDEO_WEBM || '/jude_wade_reel.webm'} type="video/webm" />
-              Your browser does not support the video tag.
+              Your browser does not support the video tag
             </video>
           </div>
         </div>  
